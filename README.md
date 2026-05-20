@@ -83,11 +83,6 @@ Clasificación del estado en niveles (Normal / Vigilancia / Crítico) según gra
 pip install pandas numpy scikit-learn tensorflow matplotlib
 ```
 
----
-
-## Contexto
-
-Proyecto final del Diplomado en Estadística y Analítica de Datos. El alcance se limita a **detección de anomalías**; clasificación de modo de falla y RUL (Remaining Useful Life) quedan fuera de scope por la naturaleza mayoritariamente súbita de las fallas en este parque.
 
 ---
 
