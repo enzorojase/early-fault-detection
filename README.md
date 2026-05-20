@@ -31,6 +31,37 @@ Evaluado sobre **22 eventos** (12 con falla, 10 normales) repartidos en **6 aero
 
 ---
 
+## Radiografías predictivas
+
+Cada gráfico muestra la evolución del *anomaly score* en torno a la ventana de falla de un evento real. La línea naranja marca el inicio de la ventana, la roja la parada de máquina, y la punteada el umbral de alarma (P95).
+
+<p align="center">
+  <img src="images/1.png" width="48%"/>
+  <img src="images/2.png" width="48%"/>
+</p>
+<p align="center">
+  <img src="images/3.png" width="48%"/>
+  <img src="images/4.png" width="48%"/>
+</p>
+<p align="center">
+  <img src="images/5.png" width="48%"/>
+  <img src="images/6.png" width="48%"/>
+</p>
+<p align="center">
+  <img src="images/7.png" width="48%"/>
+  <img src="images/8.png" width="48%"/>
+</p>
+<p align="center">
+  <img src="images/9.png" width="48%"/>
+  <img src="images/10.png" width="48%"/>
+</p>
+<p align="center">
+  <img src="images/11.png" width="48%"/>
+  <img src="images/12.png" width="48%"/>
+</p>
+
+---
+
 ## Enfoque técnico
 
 **Arquitectura:** Autoencoder denso con PReLU activations.
@@ -67,7 +98,7 @@ Clasificación del estado en niveles (Normal / Vigilancia / Crítico) según gra
 .
 ├── EARLY_FAULT_DETECTION.ipynb     # Notebook principal
 ├── results_early_fault_detection.csv
-├── images/                          # Gráficos generados
+├── images/                          # Radiografías predictivas
 └── README.md
 ```
 
@@ -82,8 +113,5 @@ Clasificación del estado en niveles (Normal / Vigilancia / Crítico) según gra
 ```bash
 pip install pandas numpy scikit-learn tensorflow matplotlib
 ```
-
-
----
 
 **Autor:** Enzo Rojas — [enzo.rojas.escobar@gmail.com](mailto:enzo.rojas.escobar@gmail.com)
